@@ -1,0 +1,14 @@
+table: |
+  include tables/en-us-comp8.ctb
+
+tests:
+  - - "AB cd Ef gH"
+    - "AB cd Ef gH"
+
+table: |
+  include tables/en-us-comp8.ctb
+  noback context $l[]$l @36
+
+tests:
+  - - "AB cd Ef gH"
+    - "A-B c-d E-f g-H"
