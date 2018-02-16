@@ -1,0 +1,8 @@
+table: [tables/en-us-g1.ctb]
+tests:
+  - - "SARVESH KUMAR Upadhyay"
+    - ",,sarvesh ,,kumar"
+    - maxOutputLen: 20
+  - - "SARVESH KUMAR UPADHYAY"
+    - ",,sarvesh ,,kumar"
+    - maxOutputLen: 20
